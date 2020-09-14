@@ -1,4 +1,3 @@
-const { isBatteryScooter, isBatteryLevelScooter } = require("@entur/sdk");
 const inquirer = require("inquirer");
 const createEnturService = require("@entur/sdk").default;
 const service = createEnturService({ clientName: "scootiscoot" });
